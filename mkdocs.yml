@@ -1,7 +1,7 @@
 site_name: MtnMe.sh
 site_author: MtnMe.sh
 site_description: "Mountain Mesh: Serving Meshtastic to the Appalachian Mountains (North GA)"
-site_url: https://MtnMe.sh/
+site_url: https://mtnme.sh/
 repo_url: https://github.com/MtnMesh/mtnmesh.github.io
 nav:
   - Home: index.md

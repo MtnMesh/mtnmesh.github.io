@@ -40,7 +40,7 @@ jobs:
 
       - run: pip install -r requirements.txt
       
-      - run: mkdocs build --site-dir public
+      - run: mkdocs build --verbose --site-dir public
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
