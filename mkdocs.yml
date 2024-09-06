@@ -1,4 +1,6 @@
 site_name: MtnMe.sh
+site_description: "Mountain Mesh: Serving Meshtastic to the Appalachian Mountains (North GA)"
+repo_url: https://github.com/MtnMesh/mtnmesh.github.io
 nav:
   - Home: index.md
   - Devices: devices.md
@@ -11,6 +13,7 @@ plugins:
 
 theme:
   name: material
+  favicon: static/favicon.png
   icon:
     logo: fontawesome/solid/mountain
 
