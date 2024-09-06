@@ -20,6 +20,11 @@ plugins:
       repository: MtnMesh/mtnmesh.github.io
       branch: main
 
+markdown_extensions:
+  - tables
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
 theme:
   name: material
   favicon: static/favicon.png

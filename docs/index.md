@@ -1,3 +1,7 @@
+---
+status: new
+---
+
 # MtnMe.sh
 Mountain Mesh: Serving Meshtastic to the Appalachian Mountains.
 

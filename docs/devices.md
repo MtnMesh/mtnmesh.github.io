@@ -1,3 +1,7 @@
+---
+status: new
+---
+
 # Devices / Hardware
 
 WIP!
