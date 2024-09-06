@@ -29,6 +29,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetch all history for mkdocs-git-revision-date-localized-plugin
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
