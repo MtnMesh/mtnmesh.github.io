@@ -1,6 +1,7 @@
 site_name: MtnMe.sh
 site_author: MtnMe.sh
 site_description: "Mountain Mesh: Serving Meshtastic to the Appalachian Mountains (North GA)"
+copyright: © Creative Commons Attribution-ShareAlike 4.0 International License
 site_url: https://mtnme.sh/
 repo_url: https://github.com/MtnMesh/mtnmesh.github.io
 edit_uri: edit/main/docs/
@@ -33,7 +34,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.footer
+    - toc.integrate
     - content.action.view
     - content.action.edit
 
