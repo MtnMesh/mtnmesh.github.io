@@ -1,0 +1,22 @@
+site_name: MtnMe.sh
+nav:
+  - Home: index.md
+  - Devices: devices.md
+  - Resources: resources.md
+  - Neighbors: neighbors.md
+
+plugins:
+  - search
+  - social
+
+theme:
+  name: material
+  icon:
+    logo: fontawesome/solid/mountain
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord 
+      link: https://discord.gg/4WN32RHGSs
+    - icon: fontawesome/brands/github 
+      link: https://github.com/mtnmesh
