@@ -3,6 +3,7 @@ site_author: MtnMe.sh
 site_description: "Mountain Mesh: Serving Meshtastic to the Appalachian Mountains (North GA)"
 site_url: https://mtnme.sh/
 repo_url: https://github.com/MtnMesh/mtnmesh.github.io
+edit_uri: edit/main/docs/
 nav:
   - Home: index.md
   - Devices: devices.md
@@ -12,12 +13,24 @@ nav:
 plugins:
   - search
   - social
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+  - git-committers:
+      repository: MtnMesh/mtnmesh.github.io
+      branch: main
 
 theme:
   name: material
   favicon: static/favicon.png
   icon:
     logo: fontawesome/solid/mountain
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.footer
+    - content.action.view
+    - content.action.edit
 
 extra:
   social:
