@@ -7,6 +7,8 @@ repo_url: https://github.com/MtnMesh/mtnmesh.github.io
 edit_uri: edit/main/docs/
 nav:
   - Home: index.md
+  - About: about.md
+  - Guides: guides.md
   - Devices: devices.md
   - Resources: resources.md
   - Neighbors: neighbors.md
