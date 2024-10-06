@@ -25,11 +25,11 @@ status: new
 
 === "LoRa"
 
-    |        Option | Recommended Config |
-    | ------------: | :----------------- |
-    | ^^Hop limit^^ | `5`                |
-    |   Ignore MQTT | `True`             |
-    |    OK to MQTT | `False`            |
+    |        Option | Recommended Config | Notes                                                             |
+    | ------------: | :----------------- | :---------------------------------------------------------------- |
+    | ^^Hop limit^^ | `5`                | Please do not set this higher than `6` :pray: the mesh thanks you |
+    |   Ignore MQTT | `True`             | This is enabled on most `ROUTER` nodes in our mesh                |
+    |    OK to MQTT | `False`            | Added in 2.5.x                                                    |
 
 ## Module configuration
 
