@@ -8,7 +8,9 @@ edit_uri: edit/main/docs/
 nav:
   - Home: index.md
   - About: about.md
-  - Guides: guides.md
+  - Guides:
+    # - Guide1: guides/guide1.md
+    - Config: config.md
   - Devices: devices.md
   - Resources: resources.md
   - Neighbors: neighbors.md
@@ -17,16 +19,24 @@ plugins:
   - search
   - social
   - git-revision-date-localized:
-      enable_creation_date: true
+      enable_creation_date: false
       type: date
   - git-committers:
       repository: MtnMesh/mtnmesh.github.io
       branch: main
 
 markdown_extensions:
+  - toc
+  - attr_list
   - tables
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji 
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 theme:
   name: material
