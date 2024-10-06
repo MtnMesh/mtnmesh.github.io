@@ -25,11 +25,11 @@ status: new
 
 === "LoRa"
 
-    |      Option | Recommended Config |
-    | ----------: | :----------------- |
-    |   Hop limit | `5`                |
-    | Ignore MQTT | `True`             |
-    |  OK to MQTT | `False`            |
+    |        Option | Recommended Config |
+    | ------------: | :----------------- |
+    | ^^Hop limit^^ | `5`                |
+    |   Ignore MQTT | `True`             |
+    |    OK to MQTT | `False`            |
 
 ## Module configuration
 
