@@ -11,3 +11,7 @@
 
 - Austin, Texas: [Austin Mesh](https://www.austinmesh.org/)
 - Sacramento, California: [Sac Valley Mesh](https://www.sacvalleymesh.com/)
+
+## Related groups
+
+- DefCon Atlanta: [DC404](https://dc404.org/)

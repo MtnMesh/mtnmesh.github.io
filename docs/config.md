@@ -4,6 +4,9 @@ status: new
 
 # Recommended Configuration Settings
 
+In order to maintain a healthy mesh network, we recommend the following configuration settings for your Meshtastic devices.
+
+These settings are intended to facilitate a stable and reliable mesh network. They are based on the collective experience of the Mountain Mesh community and are subject to change as the mesh grows and evolves.
 
 ## Radio configuration
 
@@ -14,7 +17,7 @@ status: new
     |                        Role | `CLIENT` or `CLIENT_MUTE` | See :fontawesome-brands-youtube: [Meshtastic Deployment Scenarios](https://www.youtube.com/watch?v=htjwtnjQkkE) |
     | NodeInfo broadcast interval | `10800` (3 hours)         |                                                                                                                 |
 
-=== "Position"
+=== ":material-map-marker-alert: Position"
 
     |                      Option | Recommended Config   | Notes                                           |
     | --------------------------: | :------------------- | :---------------------------------------------- |
@@ -46,7 +49,11 @@ status: new
 
 === "Neighbor Info"
 
-    |                Option | Recommended Config |
-    | --------------------: | :----------------- |
-    | Neighbor Info enabled | `True`             |
-    |       Update interval | `21600` (6 hours)  |
+    |                Option | Recommended Config | Notes                                                       |
+    | --------------------: | :----------------- | :---------------------------------------------------------- |
+    | Neighbor Info enabled | `True`             | Only enable this on "infrastructure" nodes.                 |
+    |       Update interval | `21600` (6 hours)  | This is a large packet! Do not set this lower than 6 hours. |
+
+    Neighbor Info is a large packet and should only be enabled on "infrastructure" nodes (Routers / Home base-stations). This is a great way to see who is around you on our mapping tools, but it is not recommended for mobile nodes or secondary indoor nodes.
+
+    Setting the interval too low will cause congestion on the mesh, leading to packet loss and dropped messages.
