@@ -1,8 +1,5 @@
----
-status: new
----
-
 # MtnMe.sh
+
 Mountain Mesh: Serving Meshtastic to the Appalachian Mountains.
 
 [Join us on Discord!](https://discord.gg/4WN32RHGSs)
@@ -13,6 +10,8 @@ Mountain Mesh: Serving Meshtastic to the Appalachian Mountains.
 
 Checkout the mesh in real time on [our MeshInfo](https://info.MtnMe.sh) -- Best viewed on Desktop.
 
-![MtnMe.sh MeshInfo Map](static/meshinfo_map.png)
+![MtnMe.sh MeshInfo Map](/static/meshinfo_map.png)
 
-This site is a work in progress, feel free to submit a PR!
+## Map
+
+Also check out [map.MtnMe.sh](https://map.MtnMe.sh/), our instance of the `LiamCottle Meshtastic Map`.
