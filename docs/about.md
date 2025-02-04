@@ -1,7 +1,3 @@
----
-status: new
----
-
 # About Us
 
 Mountain Mesh is a community group building a mesh network in the southern Appalachian Mountains. We are a group of makers, tech enthusiasts, and amateur radio operators who are passionate about building a resilient, decentralized, and community-owned communications network.
