@@ -8,7 +8,7 @@ Mountain Mesh: Serving Meshtastic to the Appalachian Mountains.
 
 ## MeshInfo
 
-Checkout the mesh in real time on [our MeshInfo](https://info.MtnMe.sh) -- Best viewed on Desktop.
+Checkout the mesh in real time on [our MeshInfo](https://view.mtnme.sh/map) -- Best viewed on Desktop.
 
 ![MtnMe.sh MeshInfo Map](/static/meshinfo_map.png)
 
