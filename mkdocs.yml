@@ -11,7 +11,8 @@ nav:
   - Guides:
     - Config: config.md
     - Filters: guides/filters.md
-  - Devices: devices.md
+  - Devices:
+    - MeshToad: devices/MeshToad.md
   - Resources: resources.md
   - Neighbors: neighbors.md
 
@@ -30,11 +31,14 @@ markdown_extensions:
   - toc
   - attr_list
   - tables
+  - def_list
+  - admonition
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - pymdownx.details
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
