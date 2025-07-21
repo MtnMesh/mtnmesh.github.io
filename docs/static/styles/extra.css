@@ -1,0 +1,35 @@
+/* Custom Palette for Meshtastic */
+:root * {
+  /* Meshtastic theme colors */
+  --mt-primary-color: #67EA94;
+  --mt-primary-color--transparent: #67EA9488;
+  --mt-secondary-color: #2C2D3C;
+
+  /* Primary colors */
+  --md-primary-fg-color:               var(--mt-primary-color);
+  --md-primary-fg-color--light:        var(--mt-primary-color);
+  --md-primary-fg-color--dark:         var(--mt-primary-color);
+  --md-primary-bg-color:               var(--mt-secondary-color);
+  --md-primary-bg-color--light:        var(--mt-secondary-color);
+
+  /* Accent colors */
+  --md-accent-fg-color:                var(--mt-primary-color);
+  --md-accent-fg-color--transparent:   var(--mt-primary-color--transparent);
+  --md-accent-bg-color:                var(--mt-secondary-color);
+  --md-accent-bg-color--light:         var(--mt-secondary-color);
+
+  /* General color changes */
+  --md-default-bg-color:               #1B1B1D;
+  --md-default-fg-color--light:        #FFFFFF;
+  --md-typeset-a-color:                var(--mt-primary-color);
+}
+
+/* Add slight border radius to images */
+img {
+  border-radius: 0.25rem;
+}
+
+/* Show underline on links when hovered */
+.md-content a:hover {
+  text-decoration: underline;
+}

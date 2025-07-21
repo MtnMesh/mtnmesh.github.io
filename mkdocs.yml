@@ -60,9 +60,16 @@ theme:
     - content.action.view
     - content.action.edit
 
+  # We implement a custom Meshtastic palette, but use `slate` as a base
+  palette:
+    scheme: slate
+
 extra:
   social:
     - icon: fontawesome/brands/discord 
       link: https://discord.gg/4WN32RHGSs
     - icon: fontawesome/brands/github 
       link: https://github.com/mtnmesh
+
+extra_css:
+  - static/styles/extra.css
