@@ -5,6 +5,7 @@ copyright: © Creative Commons Attribution-ShareAlike 4.0 International License
 site_url: https://mtnme.sh/
 repo_url: https://github.com/MtnMesh/mtnmesh.github.io
 edit_uri: edit/main/docs/
+
 nav:
   - Home: index.md
   - About: about.md
@@ -59,9 +60,8 @@ theme:
     - toc.integrate
     - content.action.view
     - content.action.edit
-
-  # We implement a custom Meshtastic palette, but use `slate` as a base
   palette:
+    # The custom Meshtastic theme uses `slate` as a base
     scheme: slate
 
 extra:
@@ -72,4 +72,5 @@ extra:
       link: https://github.com/mtnmesh
 
 extra_css:
+  # Custom styles for Meshtastic theme
   - static/styles/extra.css
