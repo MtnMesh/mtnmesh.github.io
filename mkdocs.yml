@@ -56,7 +56,7 @@ markdown_extensions:
 theme:
   name: material
   favicon: static/favicon.svg
-  logo: static/logo.svg
+  logo: static/logo-no_text.svg
   icon:
     logo: fontawesome/solid/mountain
   features:
@@ -65,6 +65,7 @@ theme:
     - toc.integrate
     - content.action.view
     - content.action.edit
+  custom_dir: overrides
   palette:
     # The custom Meshtastic theme uses `slate` as a base
     scheme: slate
