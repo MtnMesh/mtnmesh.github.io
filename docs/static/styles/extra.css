@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 /* Custom Palette for Meshtastic */
 :root * {
 	/* Meshtastic theme colors */
@@ -22,6 +24,29 @@
 	--md-default-bg-color: #1B1B1D;
 	--md-default-fg-color--light: #FFFFFF;
 	--md-typeset-a-color: var(--mt-primary-color);
+
+	/* Default Fonts */
+	font-family: "Inter", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
+/*
+	Content Customization
+*/
+
+/* Use Rubik for headings */
+.md-content h1,
+.md-content h2,
+.md-content h3,
+.md-content h4,
+.md-content h5,
+.md-content h6,
+.md-header__topic {
+	font-family: "Rubik", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
 }
 
 /* Add slight border radius to images */
@@ -32,4 +57,46 @@ img {
 /* Show underline on links when hovered */
 .md-content a:hover {
 	text-decoration: underline;
+}
+
+/*
+	Header Tab Customization
+*/
+
+.md-tabs__link {
+	opacity: 1;
+	padding: 0.25rem 0.5rem;
+	border-radius: 0.25rem;
+}
+
+.md-tabs__link:hover {
+	background-color: #FFFFFF66;
+}
+
+.md-tabs__item--active > .md-tabs__link {
+	background-color: var(--mt-secondary-color);
+	color: var(--mt-primary-color);
+}
+
+/*
+	Header Customization
+*/ 
+
+/* Add padding to the header logo */
+.mtn-topic-logo {
+	margin: .2rem;
+	padding: .4rem;
+}
+
+/* Ensure the header logo scales correctly */
+.mtn-topic-logo > img {
+	fill: currentcolor;
+	display: block;
+	height: 1.2rem;
+	width: auto;
+}
+
+/* Remove the left margin from the header title */
+.md-header__title {
+	margin-left: 0 !important;
 }
