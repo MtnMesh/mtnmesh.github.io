@@ -55,7 +55,8 @@ markdown_extensions:
 
 theme:
   name: material
-  favicon: static/favicon.png
+  favicon: static/favicon.svg
+  logo: static/logo.svg
   icon:
     logo: fontawesome/solid/mountain
   features:
