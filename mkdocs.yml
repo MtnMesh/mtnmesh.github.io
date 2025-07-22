@@ -19,7 +19,11 @@ nav:
 
 plugins:
   - search
-  - social
+  - social:
+      cards_layout: default
+      cards_layout_options:
+        background_color: "#2C2D3C"
+        color: "#67EA94"
   - glightbox
   - git-revision-date-localized:
       enable_creation_date: false
