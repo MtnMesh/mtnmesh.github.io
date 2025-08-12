@@ -24,11 +24,13 @@ These settings are intended to facilitate a stable and reliable mesh network. Th
 
 ### LoRa
 
-|        Option | Recommended Config | Notes                                                                                            |
-| ------------: | :----------------- | :----------------------------------------------------------------------------------------------- |
-| ^^Hop limit^^ | `5`                | Please do not set this higher than `6`. :pray: The mesh thanks you.                              |
-|   Ignore MQTT | `True`             | This is enabled on most `ROUTER` nodes in our mesh.                                              |
-|    OK to MQTT | `True`             | Added in `2.5.0`. Enable to show up on online tools like [info.MtnMe.sh](https://info.mtnme.sh). |
+|         Option | Recommended Config | Notes                                                                                            |
+| -------------: | :----------------- | :----------------------------------------------------------------------------------------------- |
+|   Modem Preset | LONG_FAST          | This is the default.                                                                             |
+|  ^^Hop limit^^ | `5`                | Please do not set this higher than `6`. :pray: The mesh thanks you.                              |
+| Frequency Slot | 20                 | This is the default. It equates to 906.875 MHz                                                   |
+|    Ignore MQTT | `True`             | This is enabled on most `ROUTER` nodes in our mesh.                                              |
+|     OK to MQTT | `True`             | Added in `2.5.0`. Enable to show up on online tools like [info.MtnMe.sh](https://info.mtnme.sh). |
 
 ## Module configuration
 
