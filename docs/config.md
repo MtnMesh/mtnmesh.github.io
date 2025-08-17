@@ -19,7 +19,7 @@ These settings are intended to facilitate a stable and reliable mesh network. Th
 | --------------------------: | :------------------- | :---------------------------------------------- |
 |      Smart position enabled | `True`               |                                                 |
 | Position broadcast interval | `3600` (1 hour)      |                                                 |
-|         GPS update interval | `1800` (30 minutes)  |                                                 |
+|         GPS update interval | `900` (15 minutes)  |                                                 |
 |              Position flags | Disable unused flags | Fixed nodes should disable almost all of these. |
 
 ### LoRa
@@ -33,6 +33,8 @@ These settings are intended to facilitate a stable and reliable mesh network. Th
 ## Module configuration
 
 ### Telemetry
+
+Please only enabel on solar nodes where health data is useful.
 
 |                              Option | Recommended Config | Notes                                                      |
 | ----------------------------------: | :----------------- | :--------------------------------------------------------- |
