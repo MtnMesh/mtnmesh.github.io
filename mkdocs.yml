@@ -5,6 +5,7 @@ copyright: © Creative Commons Attribution-ShareAlike 4.0 International License
 site_url: https://mtnme.sh/
 repo_url: https://github.com/MtnMesh/mtnmesh.github.io
 edit_uri: edit/main/docs/
+
 nav:
   - Home: index.md
   - About: about.md
@@ -18,7 +19,11 @@ nav:
 
 plugins:
   - search
-  - social
+  - social:
+      cards_layout: default
+      cards_layout_options:
+        background_color: "#2C2D3C"
+        color: "#67EA94"
   - glightbox
   - git-revision-date-localized:
       enable_creation_date: false
@@ -50,7 +55,8 @@ markdown_extensions:
 
 theme:
   name: material
-  favicon: static/favicon.png
+  favicon: static/favicon.svg
+  logo: static/logo-no_text.svg
   icon:
     logo: fontawesome/solid/mountain
   features:
@@ -59,6 +65,10 @@ theme:
     - toc.integrate
     - content.action.view
     - content.action.edit
+  custom_dir: overrides
+  palette:
+    # The custom Meshtastic theme uses `slate` as a base
+    scheme: slate
 
 extra:
   social:
@@ -66,3 +76,7 @@ extra:
       link: https://discord.gg/4WN32RHGSs
     - icon: fontawesome/brands/github 
       link: https://github.com/mtnmesh
+
+extra_css:
+  # Custom styles for Meshtastic theme
+  - static/styles/extra.css

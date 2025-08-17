@@ -1,4 +1,6 @@
-# MtnMe.sh
+<h1>
+    <img src="/static/logo-full-inverted.svg" alt="MtnMesh" style="padding: 0 1rem; margin: 0 auto; width: 100%; max-height: 6rem;" />
+</h1>
 
 Mountain Mesh is a community group building a mesh network in the southern Appalachian Mountains. We are a group of makers, tech enthusiasts, and amateur radio operators who are passionate about building a resilient, decentralized, and community-owned communications network. You can learn more about us on our [About page](/about/).
 
