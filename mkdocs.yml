@@ -12,6 +12,7 @@ nav:
   - Guides:
     - Config: config.md
     - Filters: guides/filters.md
+    - Ringtones: guides/ringtones.md
   - Devices:
     - RAKWireless Solar: builds/rak_solar.md
     - MeshToad: devices/MeshToad.md
