@@ -13,26 +13,41 @@ These settings are intended to facilitate a stable and reliable mesh network. Th
 |                        Role | `CLIENT` or `CLIENT_MUTE` | See :fontawesome-brands-youtube: [Meshtastic Deployment Scenarios](https://www.youtube.com/watch?v=htjwtnjQkkE) |
 | NodeInfo broadcast interval | `10800` (3 hours)         |                                                                                                                 |
 
-### :material-map-marker-alert: Position
+### Position
 
 |                      Option | Recommended Config   | Notes                                           |
 | --------------------------: | :------------------- | :---------------------------------------------- |
 |      Smart position enabled | `True`               |                                                 |
 | Position broadcast interval | `3600` (1 hour)      |                                                 |
-|         GPS update interval | `1800` (30 minutes)  |                                                 |
+|         GPS update interval | `900` (15 minutes)  |                                                 |
 |              Position flags | Disable unused flags | Fixed nodes should disable almost all of these. |
 
 ### LoRa
 
-|        Option | Recommended Config | Notes                                                                                            |
-| ------------: | :----------------- | :----------------------------------------------------------------------------------------------- |
-| ^^Hop limit^^ | `5`                | Please do not set this higher than `6`. :pray: The mesh thanks you.                              |
-|   Ignore MQTT | `True`             | This is enabled on most `ROUTER` nodes in our mesh.                                              |
-|    OK to MQTT | `True`             | Added in `2.5.0`. Enable to show up on online tools like [info.MtnMe.sh](https://info.mtnme.sh). |
+**LongFast Config**
+|         Option | Recommended Config | Notes                                                                                            |
+| -------------: | :----------------- | :----------------------------------------------------------------------------------------------- |
+|   Modem Preset | LONG_FAST          | This is the default.                                                                             |
+|  ^^Hop limit^^ | `5`                | Please do not set this higher than `6`. :pray: The mesh thanks you.                              |
+| Frequency Slot | 20                 | This is the default. It equates to 906.875 MHz                                                   |
+|    Ignore MQTT | `True`             | This is enabled on most `ROUTER` nodes in our mesh.                                              |
+|     OK to MQTT | `True`             | Added in `2.5.0`. Enable to show up on online tools like [info.MtnMe.sh](https://info.mtnme.sh). |
+
+**MediumFast Config**
+|         Option | Recommended Config | Notes                                                                                            |
+| -------------: | :----------------- | :----------------------------------------------------------------------------------------------- |
+|   Modem Preset | MEDIUM_FAST        | This is the new fast network                                                                     |
+|  ^^Hop limit^^ | `6`                | Please do not set this higher than `6`. :pray:                                                   |
+| Frequency Slot | 45                 | This is the default. It equates to 913.125 MHz                                                   |
+|    Ignore MQTT | `True`             | This is enabled on most `ROUTER` nodes in our mesh.                                              |
+|     OK to MQTT | `True`             | Added in `2.5.0`. Enable to show up on online tools like [info.MtnMe.sh](https://info.mtnme.sh). |
+
 
 ## Module configuration
 
 ### Telemetry
+
+Please only enabel on solar nodes where health data is useful.
 
 |                              Option | Recommended Config | Notes                                                      |
 | ----------------------------------: | :----------------- | :--------------------------------------------------------- |
@@ -49,4 +64,4 @@ Consider disabling the `Environment metrics` / `Air Quality metrics` modules if 
 | --------------------: | :----------------- |
 | Neighbor Info enabled | `False`            |
 
-Neighbor Info's functionality has been greatly limited in newer firmware versions. We recommend disabling it at this time.
+Neighbor Info's functionality has been greatly limited in newer firmware versions. We recommend disabling it for most deployments.

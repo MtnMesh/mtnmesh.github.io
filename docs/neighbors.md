@@ -15,4 +15,5 @@
 
 ## Related groups
 
+- [Big Shanty Repeater Group (BSRG)](https://bsrg.org/)
 - DefCon Atlanta: [DC404](https://dc404.org/)
