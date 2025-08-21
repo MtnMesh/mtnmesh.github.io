@@ -7,6 +7,7 @@
 - Birmingham, Alabama: [Birmingham Mesh](https://birminghammesh.org/)
 - North Carolina: [NCMesh](https://ncmesh.net/)
 - Augusta, GA: CSRA Mesh
+- Florida Mesh, Florida: [FLMesh Discord](https://discord.gg/floridamesh), [Florida Mesh Website](https://areyoumeshingwith.us)
 
 ## Other meshes we love 💚
 
