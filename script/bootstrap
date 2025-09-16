@@ -1,0 +1,51 @@
+#!/bin/bash
+
+# accept input string and print it in green
+function GRN() {
+  if [[ $1 == "-n" ]]; then
+    echo -n -e "\033[0;32m$2\033[0m"
+  else
+    echo -e "\033[0;32m$1\033[0m"
+  fi
+}
+
+# accept input string and print it in red
+function RED() {
+  if [[ $1 == "-n" ]]; then
+    echo -n -e "\033[0;31m$2\033[0m"
+  else
+    echo -e "\033[0;31m$1\033[0m"
+  fi
+}
+
+# accept input string and print it in yellow
+function YLW() {
+  if [[ $1 == "-n" ]]; then
+    echo -n -e "\033[0;33m$2\033[0m"
+  else
+    echo -e "\033[0;33m$1\033[0m"
+  fi
+}
+
+YLW -n "Creating virtual environment... "
+if [[ ! -d .venv ]]; then
+  python3 -m venv .venv || {
+    RED "failed"
+    exit 1
+  }
+fi
+GRN "done"
+
+YLW -n "Activating virtual environment..."
+source .venv/bin/activate || {
+  RED "failed"
+  exit 1
+}
+GRN "done"
+
+YLW -n "Installing dependencies..."
+pip install -r requirements.txt || {
+  RED "failed"
+  exit 1
+}
+GRN "done"

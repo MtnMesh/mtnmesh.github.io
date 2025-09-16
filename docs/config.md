@@ -25,6 +25,7 @@ These settings are intended to facilitate a stable and reliable mesh network. Th
 ### LoRa
 
 **LongFast Config**
+
 |         Option | Recommended Config | Notes                                                                                            |
 | -------------: | :----------------- | :----------------------------------------------------------------------------------------------- |
 |   Modem Preset | LONG_FAST          | This is the default.                                                                             |
@@ -34,6 +35,7 @@ These settings are intended to facilitate a stable and reliable mesh network. Th
 |     OK to MQTT | `True`             | Added in `2.5.0`. Enable to show up on online tools like [info.MtnMe.sh](https://info.mtnme.sh). |
 
 **MediumFast Config**
+
 |         Option | Recommended Config | Notes                                                                                            |
 | -------------: | :----------------- | :----------------------------------------------------------------------------------------------- |
 |   Modem Preset | MEDIUM_FAST        | This is the new fast network                                                                     |
