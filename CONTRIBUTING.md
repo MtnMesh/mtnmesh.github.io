@@ -5,13 +5,18 @@ This site is built wtih [MkDocs](https://www.mkdocs.org). Pull requests are welc
 ## Install requirements
 
 ```sh
-pip install -r requirements.txt
+script/bootstrap
+```
+
+### If you have direnv installed:
+```sh
+direnv allow
 ```
 
 ## Edit interactively
 
 ```sh
-mkdocs serve
+mkdocs serve -w docs/
 ```
 
 changes made in `docs/` will be reflected in the browser session.
