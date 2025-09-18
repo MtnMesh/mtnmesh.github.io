@@ -1,6 +1,6 @@
 # RAK Wireless Solar Build
 
-![RAK Wireless Solar Tree](/docs/static/guides/builds/solar_tree.jpg) { width="30%" }
+![RAK Wireless Solar Tree](/static/guides/builds/solar_tree.jpg){ width="50%" }
 
 There are many builds out there for solar Meshtastic nodes, but many require unique modifications and potentially specialized tools. This build is essentially a copy of the build from [The Comms Channel](https://www.youtube.com/watch?v=d2vQ87Th8DI). Highly recommend watching this video if you haven't already. This page offers anecdotal commentary on a duplicate of this build and how it performs.
 
@@ -37,8 +37,8 @@ The build process was pretty painless. There are no instructions on how to assem
 
 Here's a look inside of the node with all parts assembled prior to deployment.
 
-![Node Internals](/docs/static/guides/builds/solar_internals.jpg){ width="60% }
+![Node Internals](/static/guides/builds/solar_internals.jpg){ width="30% }
 
 And here is the current deployment of the node. As of April 19, 2025, the node has been in the wild for more than 2 weeks. It has been steadily charging during the day with the charge not dropping below 80%.
 
-![Node Deployed](/docs/static/guides/builds/solar_deployed.jpg){ width="60% }
+![Node Deployed](/static/guides/builds/solar_deployed.jpg){ width="30% }
