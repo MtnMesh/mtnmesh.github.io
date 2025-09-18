@@ -12,10 +12,11 @@ nav:
   - Guides:
     - Config: config.md
     - Filters: guides/filters.md
+    - 'Flashing the MeshToad or MeshTadpole': guides/flash-meshtoad-meshtadpole.md
     - Ringtones: guides/ringtones.md
   - Devices:
-    - RAKWireless Solar: builds/rak_solar.md
     - MeshToad: devices/MeshToad.md
+    - RAKWireless Solar: builds/rak_solar.md
   - Resources: resources.md
   - Neighbors: neighbors.md
 
