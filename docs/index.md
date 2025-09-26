@@ -22,7 +22,7 @@ Come chat with us! We are active on [Discord](https://discord.gg/4WN32RHGSs). Th
 There are two ways to check out our mesh in real time:
 
 - [our MeshView instance](https://view.mtnme.sh/map)
-- [our instance of the `LiamCottle Meshtastic Map`](https://map.MtnMe.sh/)
+- [our Malla instance](https://malla.mtnme.sh)
 
 Here's what it looked like as of June 4th, 2025:
 
