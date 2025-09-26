@@ -4,9 +4,12 @@
 
 Mountain Mesh is a community group building a mesh network in the southern Appalachian Mountains. We are a group of makers, tech enthusiasts, and amateur radio operators who are passionate about building a resilient, decentralized, and community-owned communications network. You can learn more about us on our [About page](/about/).
 
-## [MediumFast Test](/mediumfast)
+## [MediumFast Migration](/mediumfast)
+
 !!! warning
-    On October 1, 2025, Mountain Mesh members are flipping their nodes over to the MediumFast modem preset. For more information on how to set your node to work with the modem test, see our [MediumFast setup guide](/mediumfast).
+    On October 1, 2025, we ask that all Mountain Mesh members flip their nodes over to the MediumFast modem preset. For more information on how to set your nodes connected, see our [MediumFast setup guide](/mediumfast).
+
+[![MediumFast Flyer](static/mediumfast_flyer.png)](/mediumfast)
 
 ## Discord
 

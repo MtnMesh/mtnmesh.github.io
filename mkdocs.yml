@@ -10,6 +10,7 @@ nav:
   - Home: index.md
   - About: about.md
   - Guides:
+    - MediumFast Migration: mediumfast.md
     - Config: config.md
     - Filters: guides/filters.md
     - 'Flashing the MeshToad or MeshTadpole': guides/flash-meshtoad-meshtadpole.md

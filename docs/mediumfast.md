@@ -2,10 +2,10 @@
 
 We're flipping our mesh from the default LongFast to MediumFast on October 1, 2025.
 
-[Click here for a configuration link if you don't feel like reading.](https://meshtastic.org/e/#CgcSAQE6AggNCg0SAQEaCExvbmdGYXN0EhQIARAEOAFAA0gBUB5oAcAGAcgGAQ)
-
 !!! warning
     If you have a filter on your node, make sure it's compatible with the new MediumFast frequency before continuing. LongFast (slot 20) operates at `906.875 MHz`. MediumFast (slot 45) operates at `913.125 MHz`.
+
+[![MediumFast Flyer](static/mediumfast_flyer.png)](https://meshtastic.org/e/#CgcSAQE6AggNCg0SAQEaCExvbmdGYXN0EhQIARAEOAFAA0gBUB5oAcAGAcgGAQ)
 
 ## Why We're Moving Modem Presets
 
@@ -34,13 +34,13 @@ meshtastic -t {NODE_IP_HERE} --configure node_settings.yml
 
 ### Quick Configure Link
 
-[If you want a quick easy-button configuration, use this URL](https://meshtastic.org/e/#CgcSAQE6AggNCg0SAQEaCExvbmdGYXN0EhQIARAEOAFAA0gBUB5oAcAGAcgGAQ)
+[If you want a quick easy-button configuration, use this URL or scan the QR Code above](https://meshtastic.org/e/#CgcSAQE6AggNCg0SAQEaCExvbmdGYXN0EhQIARAEOAFAA0gBUB5oAcAGAcgGAQ)
 
 This link will set the following settings:
 
 - MediumFast LoRa modem preset with frequency slot of 45
 
-- 3 Hops (feel free to bump this up as you see fit, but please be gentle)
+- 5 Hops (feel free to bump this up as you see fit, but please be gentle)
 
 - MediumFast as primary channel (0) with default PSK of `AQ==`
 
