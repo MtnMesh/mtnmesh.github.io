@@ -47,18 +47,26 @@ There are multiple ways to migrate your node to MediumFast. The easiest way is t
 
 ### Migrating Options
 
+??? note "Loading from a YAML Configuration"
+    If we had to pick, this is our favorite way to migrate settings. We have a condensed YAML configuration file that will only change the specific settings that we tell it to. All you have to do is [download the YAML file](static/mediumfast_config.yml) to your local machine and then and restore the settings.
+
+    Here's an example of how to do that:
+
+    1. [Download the YAML file](static/mediumfast_config.yml) to your local machine or your phone.
+    2. Connect to your node using the [Meshtastic CLI](https://meshtastic.org/docs/software/python/cli/) or your app of choice.
+    3. Restore the custom configuration you downloaded in step 1. It will only overwrite the settings provided, so your node names and security keys won't be touched.
+
 ??? note "Using the Meshtastic CLI"
-    This method is pretty straight-forward.
+    This method is pretty straight-forward, for what it's worth. You'll need to install the Meshtastic CLI to accomplish this. You can find the [installation instructions here](https://meshtastic.org/docs/software/python/cli/).
+
+    You can connect to the node via IP, Bluetooth, or Serial. For this example we'll use an IP-based connection.
 
     ```bash
-    ls -al
+    meshtastic -t {yourNodeIpHere} --ch-set-url https://meshtastic.org/e/#CgcSAQE6AggNCg0SAQEaCExvbmdGYXN0EhQIARAEOAFAA0gBUB5oAcAGAcgGAQ
     ```
 
-??? note "Loading from a YAML Configuration"
-    test
-
-??? note "Mobile App Manual Migration"
-    Listen, I'm only writing up this section because some of y'all are sadists and like to do things the hard way. You do you, but also why?
+<!-- ??? note "Mobile App Manual Migration"
+    Listen, I'm only writing up this section because some of y'all are sadists and like to do things the hard way. You do you, but also why? -->
 
 [See our guide on recommended configurations for additional node settings.](/config)
 
