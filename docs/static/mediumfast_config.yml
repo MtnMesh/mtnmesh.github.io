@@ -1,0 +1,22 @@
+channel_url: https://meshtastic.org/e/#CgcSAQE6AggNCg0SAQEaCExvbmdGYXN0EhQIARAEOAFABUgBUB5oAcAGAcgGAQ
+config:
+  device:
+    nodeInfoBroadcastSecs: 10800
+  lora:
+    configOkToMqtt: true
+    hopLimit: 5
+    ignoreMqtt: true
+    modemPreset: MEDIUM_FAST
+    region: US
+    sx126xRxBoostedGain: true
+    txEnabled: true
+    txPower: 0
+    usePreset: true
+  position:
+    broadcastSmartMinimumDistance: 1000
+    broadcastSmartMinimumIntervalSecs: 300
+    gpsUpdateInterval: 120
+    positionBroadcastSecs: 10800
+module_config:
+  telemetry:
+    deviceUpdateInterval: 10800
