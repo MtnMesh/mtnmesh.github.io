@@ -1,9 +1,9 @@
 # Migration to MediumFast
 
-**We're flipping our mesh from the default LongFast to MediumFast on October 1, 2025.**
+**We flipped our mesh to the MediumFast modem preset effective October 1, 2025.**
 
 !!! warning
-    If you have a filter on your node, make sure it's compatible with the new MediumFast frequency before continuing. LongFast (slot 20) operates at `906.875 MHz`. MediumFast (slot 45) operates at `913.125 MHz`.
+    If you have a filter on your node, make sure it's compatible with the MediumFast frequency before continuing. LongFast (slot 20) operates at `906.875 MHz`. MediumFast (slot 45) operates at `913.125 MHz`.
 
 [![MediumFast Flyer](static/mediumfast_flyer.png)](https://meshtastic.org/e/#CgcSAQE6AggNCg0SAQEaCExvbmdGYXN0EhQIARAEOAFAA0gBUB5oAcAGAcgGAQ)
 
