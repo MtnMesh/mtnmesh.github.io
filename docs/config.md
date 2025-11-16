@@ -33,7 +33,7 @@ As of October 1, 2025, Mountain Mesh members flipped their nodes over to the Med
 |  ^^Hop limit^^ | `5`                | Please do not set this higher than `6`. :pray:                                                   |
 | Frequency Slot | 45                 | This is the default. It equates to 913.125 MHz                                                   |
 |    Ignore MQTT | `True`             | This is enabled on most `ROUTER` nodes in our mesh.                                              |
-|     OK to MQTT | `True`             | Added in `2.5.0`. Enable to show up on online tools like [info.MtnMe.sh](https://info.mtnme.sh). |
+|     OK to MQTT | `True`             | Added in `2.5.0`. Enable to show up on online tools like [view.MtnMe.sh](https://view.mtnme.sh). |
 
 
 ## Module configuration
