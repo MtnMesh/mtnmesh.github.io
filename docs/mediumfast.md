@@ -30,7 +30,7 @@ The good news is that this isn't uncharted territory by any means. There are sev
 
 ## Migrating Your Node to MediumFast
 
-There are multiple ways to migrate your node to MediumFast. The easiest way is to use the [QR Code above](https://meshtastic.org/e/#CgcSAQE6AggNCg0SAQEaCExvbmdGYXN0EhQIARAEOAFAA0gBUB5oAcAGAcgGAQ). If that's not your vibe, there are other methods of migration outlined below.
+There are multiple ways to migrate your node to MediumFast. The easiest way is to use the [QR Code above](https://meshtastic.org/e/#CgUSAQEoAQoPEgEBGghMb25nRmFzdCgBEhIIARAEOAFABUgBaAHABgHIBgE). If that's not your vibe, there are other methods of migration outlined below.
 
 ??? note "Back that Node Up"
     Before you start tinkering, it's ALWAYS a good idea to back your current settings up. Thankfully it's easy to do with the [Meshtastic apps](https://meshtastic.org/docs/software/) or the [Meshtastic CLI](https://meshtastic.org/docs/software/python/cli/). Below is a quick way of backing up your node's settings using the CLI:
