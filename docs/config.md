@@ -25,9 +25,7 @@ These settings are intended to facilitate a stable and reliable mesh network. Th
 ### LoRa
 
 !!! warning
-    Mountain Mesh members are migrating from the default LongFast modem preset to MediumFast on October 1, 2025. We're keeping LongFast settings here for now until the migration date. For more information, see the [MediumFast Migration Page](/mediumfast)
-
-**MediumFast Config**
+As of October 1, 2025, Mountain Mesh members flipped their nodes over to the MediumFast modem preset. For more information, see the [MediumFast Migration Page](/mediumfast)
 
 |         Option | Recommended Config | Notes                                                                                            |
 | -------------: | :----------------- | :----------------------------------------------------------------------------------------------- |
@@ -35,18 +33,7 @@ These settings are intended to facilitate a stable and reliable mesh network. Th
 |  ^^Hop limit^^ | `5`                | Please do not set this higher than `6`. :pray:                                                   |
 | Frequency Slot | 45                 | This is the default. It equates to 913.125 MHz                                                   |
 |    Ignore MQTT | `True`             | This is enabled on most `ROUTER` nodes in our mesh.                                              |
-|     OK to MQTT | `True`             | Added in `2.5.0`. Enable to show up on online tools like [info.MtnMe.sh](https://info.mtnme.sh). |
-
-
-**LongFast Config**
-
-|         Option | Recommended Config | Notes                                                                                            |
-| -------------: | :----------------- | :----------------------------------------------------------------------------------------------- |
-|   Modem Preset | LONG_FAST          | This is the default.                                                                             |
-|  ^^Hop limit^^ | `5`                | Please do not set this higher than `6`. :pray: The mesh thanks you.                              |
-| Frequency Slot | 20                 | This is the default. It equates to 906.875 MHz                                                   |
-|    Ignore MQTT | `True`             | This is enabled on most `ROUTER` nodes in our mesh.                                              |
-|     OK to MQTT | `True`             | Added in `2.5.0`. Enable to show up on online tools like [info.MtnMe.sh](https://info.mtnme.sh). |
+|     OK to MQTT | `True`             | Added in `2.5.0`. Enable to show up on online tools like [view.MtnMe.sh](https://view.mtnme.sh). |
 
 
 ## Module configuration
