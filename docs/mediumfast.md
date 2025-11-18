@@ -22,7 +22,7 @@ Click the image above to access the auto-configuration URL or scan the QR code u
 
     This will NOT change your node's network role (Client, Client_Mute, etc.)
 
-## Why We're Moving Modem Presets
+## Why We Moved Modem Presets
 
 All Meshtastic devices default to LongFast out of the box. That's a great preset for getting a small mesh off the ground, but once you get more than 60 nodes chatting in an area, you start getting message collisions. More collisions means dropped packets, network congestion and decreased performance. Considering that some node DBs have more than 200 nodes and channel usage above 45%, we're well past that threshold for migration.
 
