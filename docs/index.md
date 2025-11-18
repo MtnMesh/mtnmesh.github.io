@@ -9,7 +9,7 @@ Mountain Mesh is a community group building a mesh network in the southern Appal
 !!! warning
     As of October 1, 2025, Mountain Mesh members flipped their nodes over to the MediumFast modem preset. For more information on how to set your nodes connected, see our [MediumFast setup guide](/mediumfast).
 
-[![MediumFast Flyer](static/mediumfast_flyer2.png)](/mediumfast)
+[![MediumFast Flyer](static/mediumfast_flyer.png)](/mediumfast)
 
 ## Discord
 
