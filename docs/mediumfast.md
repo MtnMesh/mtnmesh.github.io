@@ -5,7 +5,7 @@
 !!! warning
     If you have a filter on your node, make sure it's compatible with the MediumFast frequency before continuing. LongFast (slot 20) operates at `906.875 MHz`. MediumFast (slot 45) operates at `913.125 MHz`.
 
-[![MediumFast Flyer](static/mediumfast_flyer.png)](https://meshtastic.org/e/#CgcSAQE6AggNCg0SAQEaCExvbmdGYXN0EhQIARAEOAFAA0gBUB5oAcAGAcgGAQ)
+[![MediumFast Flyer](static/mediumfast_flyer2.png)](https://meshtastic.org/e/#CgcSAQE6AggNCg0SAQEaCExvbmdGYXN0EhQIARAEOAFAA0gBUB5oAcAGAcgGAQ)
 
 Click the image above to access the auto-configuration URL or scan the QR code using your phone's camera.
 
