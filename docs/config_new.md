@@ -28,7 +28,7 @@ Most users should use these settings for their everyday carry (EDC) nodes.
 | **Option** | **Recommended Config** | **Notes** | 
 | :--- | :--- | :--- | 
 | **Smart Position** | `True` | Updates more frequently while you are moving. | 
-| **Broadcast Interval** | `3600` (1 hour) | Base interval when stationary. | 
+| **Broadcast Interval** | `10800` (3 hours) | Base interval when stationary. | 
 | **Fixed Position** | `False` | Mobile nodes should use GPS/Phone location. | 
 | **Device Metrics** | `Disabled` | Others on the mesh don't need to know your battery level. | 
 | **Env. Metrics** | `Disabled` | Not useful for mobile nodes. | 
