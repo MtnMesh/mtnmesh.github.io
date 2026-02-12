@@ -1,10 +1,10 @@
-name: Deploy mkdocs-material to GitHub Pages
+name: Deploy zensical site to GitHub Pages
 
 on:
   # Runs on pushes targeting the default branch
   push:
     branches:
-      - "main"
+      - main
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -18,7 +18,7 @@ permissions:
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: false
 
 jobs:
@@ -37,18 +37,18 @@ jobs:
 
       - uses: actions/setup-python@v6
         with:
-          python-version: '3.11'
-          cache: 'pip' # caching pip dependencies
+          python-version: "3.14"
+          cache: pip # caching pip dependencies
 
       - run: pip install -r requirements.txt
       
-      - run: mkdocs build --verbose --site-dir public
+      - run: zensical build --clean
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          # Upload 'public' directory
-          path: 'public'
+          # Upload 'site' directory
+          path: site
 
       - name: Deploy to GitHub Pages
         id: deployment
