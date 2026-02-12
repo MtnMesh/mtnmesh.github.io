@@ -99,4 +99,4 @@ As these nodes are stationary and always online, they don't need to be "chatty" 
 
 ## Why these settings matter?
 
-The Meshtastic network operates on a shared channel with roughly **3kbps** of usable bandwidth under MediumFast. "Chatty" nodes—those sending updates more than necessary—can quickly saturate the network, preventing actual messages from getting through. By increasing intervals and limiting hops, we ensure the mesh remains usable for everyone.
+The Meshtastic network operates on a shared channel with roughly **3kbps** of usable bandwidth under MediumFast and just **1kbps** under LongFast. "Chatty" nodes—those sending updates more than necessary—can quickly saturate the network, preventing actual messages from getting through. By increasing intervals and limiting hops, we ensure the mesh remains usable for everyone.
