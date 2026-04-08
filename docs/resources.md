@@ -17,7 +17,6 @@
     - Interactive visualizations of mesh data, MQTT driven.
 - [MeshOMatic](https://map.meshomatic.net) by AkkerKid.
     - MeshCore network planning platform with terrain-aware coverage modeling, signal calibration, network topology analysis, gap analysis, and distributed tile processing. Ingests live observer data via MQTT and wardriving pings to calibrate RF propagation predictions against real-world measurements.
-    - [Source](https://github.com/akkerkid/meshcore-planner)
 
 ## Bots / BBS
 
