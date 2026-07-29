@@ -23,5 +23,3 @@ There are two ways to check out our mesh in real time:
 
 - [our MeshView instance](https://view.mtnme.sh/map)
 - [our Malla instance](https://malla.mtnme.sh)
-
-Both will let you get some information about what all those little dots represent, and will let you see new nodes that have come online since we last grabbed a screenshot.
