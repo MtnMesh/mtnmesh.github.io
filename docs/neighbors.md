@@ -5,6 +5,7 @@
 - Nashville, Tennessee: [NashMe.sh](https://nashme.sh/)
 - Knoxville, Tennessee: [TennMesh](https://www.thecommschannel.com/tennmesh/index.html)
 - Birmingham, Alabama: [Birmingham Mesh](https://birminghammesh.org/)
+- Asheville, North Carolina: [MeshAVL](https://meshavl.com)
 - North Carolina: [NCMesh](https://ncmesh.net/)
 - Augusta, GA: [CSRA Mesh](https://www.csramesh.org/)
 - Georgia: [GSMC](https://GAmesh.net/)
