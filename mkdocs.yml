@@ -11,7 +11,8 @@ nav:
   - About: about.md
   - Guides:
     - MediumFast Migration: mediumfast.md
-    - Config: config.md
+    - Meshtastic Config: config.md
+    - Meshcore Config: guides/meshcore.md
     - Filters: guides/filters.md
     - 'Flashing the MeshToad or MeshTadpole': guides/flash-meshtoad-meshtadpole.md
     - Ringtones: guides/ringtones.md
