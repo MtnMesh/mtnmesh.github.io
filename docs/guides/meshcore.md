@@ -19,7 +19,7 @@ Common regions within our community include:
     - us-ga-atl
 ```
 
-For more examples and configuration guides, see [piztrek's region congestion guide](https://github.com/pinztrek/mesher/blob/main/docs/regions.md).
+For more examples and configuration guides, see [Pinztrek's region congestion guide](https://github.com/pinztrek/mesher/blob/main/docs/regions.md).
 
 ## Software Recommendations and Quick Links
 
